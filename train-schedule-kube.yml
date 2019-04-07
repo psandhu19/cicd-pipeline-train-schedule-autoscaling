@@ -42,9 +42,9 @@ spec:
           timeoutSeconds: 1
           periodSeconds: 10
         resources:
-          request:
+          requests:
             cpu: 200m
-            
+
 ---
 
 apiVersion: autoscaling/v2beta1
